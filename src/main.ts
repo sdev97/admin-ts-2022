@@ -5,6 +5,9 @@ import store from './store'
 import ElementUI from 'element-ui'
 import i18n from '@/lang'
 
+import '@/styles/element-variables.scss'
+import '@/styles/index.scss'
+
 Vue.config.productionTip = false
 
 Vue.use(ElementUI, {
